@@ -44,3 +44,9 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
+
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
