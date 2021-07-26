@@ -14,7 +14,14 @@ docker build -t fastapi .
 ```
 docker run -d --name fastapicontainer -p 8000:80 fastapi
 ```
-# Stop the Docker container:
+
+# Check it
+Open your browser at http://127.0.0.1:8000/multiplicacion/5/3
+
+# Interactive API docs
+Now go to http://127.0.0.1:8000/docs
+
+# Stop and delete the Docker container:
 ```
 docker stop <id> && docker container rm <id>
 ```
